@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xpz-5i-JMe">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Demo We Chat Message Table View Controller-->
+        <scene sceneID="qB8-Bz-U6e">
+            <objects>
+                <viewController storyboardIdentifier="XHDemoWeChatMessageTableViewControllerIdentifier" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pm0-S8-zVi" customClass="XHDemoWeChatMessageTableViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SUW-11-s5F"/>
+                        <viewControllerLayoutGuide type="bottom" id="BKK-EN-kjI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fcw-LB-pBb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vXx-oN-rKZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3qN-Eg-zDL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="530" y="33"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pxu-09-Te8">
+            <objects>
+                <navigationController id="xpz-5i-JMe" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H54-zG-sHp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Pm0-S8-zVi" kind="relationship" relationship="rootViewController" id="KR5-C8-Ll5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jqm-Ez-8zQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-547" y="-439"/>
+        </scene>
+    </scenes>
+</document>
